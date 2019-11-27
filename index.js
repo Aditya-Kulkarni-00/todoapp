@@ -18,6 +18,6 @@ app.get('/', function(req, res){
 
 app.use('/api/todos', todoRoutes);
 
-app.listen(function(){
+app.listen('https://fierce-tundra-38811.herokuapp.com/',function(){
 	console.log('Node Server Has Started');
 });
